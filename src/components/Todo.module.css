@@ -1,0 +1,67 @@
+.Main{
+  display:flex;
+  justify-content:center;
+}
+.Second-Main{
+  width: 30%;
+}
+.Todo-Img{
+  background-image: url('../assests/img/header.jpg');
+  border-radius: 35px;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  display: flex;
+  justify-content:center;
+  align-items:center; 
+  color: #2F69FE;
+}
+.Menu-Icon1 {
+    width: 10px;
+    height: 1px;
+    background-color:#9999A3;
+    margin: 3px 0;
+    margin-top: 20px;
+    padding: 1px 3px;
+  }
+  .Menu-Icon2 {
+    width: 10px;
+    height: 1px;
+    background-color:#9999A3;
+    margin: 3px 0;
+    padding: 1px 3px;
+  }
+  .Menu-Icon3 {
+    width: 10px;
+    height: 1px;
+    background-color:#9999A3;
+    margin: 3px 0;
+    padding: 1px 3px;
+  }
+.Custom-Divider {
+  width: calc(100% - 20px); /* Adjusted width to consider margins */
+  border: 1px solid #9999A3;
+  /* margin: 10px 0; */
+
+
+  }
+
+/* -------------------------------------------------Responsive --------------------------------------------------- */
+  @media screen and (max-width: 600px) {
+    .Second-Main{
+      width: 80%;
+    }
+    .Todo-Img{
+      height: 30vh;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .Second-Main{
+      width: 60%;
+    }
+    .Todo-Img{
+      height: 35vh;
+    }
+  }
+  
