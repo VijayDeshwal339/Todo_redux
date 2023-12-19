@@ -39,7 +39,7 @@
     padding: 1px 3px;
   }
 .Custom-Divider {
-  width: calc(100% - 20px); /* Adjusted width to consider margins */
+  width: calc(100% - 20px); 
   border: 1px solid #9999A3;
   /* margin: 10px 0; */
 
